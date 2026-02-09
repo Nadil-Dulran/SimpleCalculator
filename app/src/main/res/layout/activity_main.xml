@@ -35,6 +35,14 @@
             android:text="C"
             android:textSize="24sp" />
         <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="⌫"
+            android:textSize="24sp"
+            android:layout_margin="4dp"/>
+        <Button
             android:id="@+id/btnDivide"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

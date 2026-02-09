@@ -30,7 +30,19 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnDecimal).setOnClickListener {
             appendDecimal()
         }
+        // Delete button
+        findViewById<Button>(R.id.btnDelete).setOnClickListener {
+            deleteLastDigit()
+        }
     }
+
+    private fun deleteLastDigit() {
+        if (currentInput.isNotEmpty()) {
+            currentInput = currentInput.dropLast(1)
+            tvDisplay.text = if (currentInput.isEmpty()) "0" else currentInput
+        }
+    }
+
     private fun setNumberButtonListeners() {
         val numberButtons = listOf(
             R.id.btn0, R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4,

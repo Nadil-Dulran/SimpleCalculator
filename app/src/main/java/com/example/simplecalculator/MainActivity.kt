@@ -5,6 +5,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     private lateinit var tvDisplay: TextView
+    private lateinit var tvHistory: TextView
     private var currentInput = ""
     private var operator = ""
     private var firstValue = 0.0
@@ -14,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         // Initialize display
         tvDisplay = findViewById(R.id.tvDisplay)
+        // Initialize history
+        tvHistory = findViewById(R.id.tvHistory)
         // Number buttons
         setNumberButtonListeners()
         // Operation buttons
@@ -85,7 +88,12 @@ class MainActivity : AppCompatActivity() {
         if (currentInput.isNotEmpty()) {
             firstValue = currentInput.toDouble()
             operator = op
+
+            // Show operation in history
+            tvHistory.text = "$firstValue $operator"
+
             currentInput = ""
+            tvDisplay.text = ""
         }
     }
     private fun calculate() {
@@ -99,6 +107,7 @@ class MainActivity : AppCompatActivity() {
                 else -> 0.0
             }
             tvDisplay.text = result.toString()
+            tvHistory.text = ""
             currentInput = result.toString()
             operator = ""
         }
@@ -109,5 +118,6 @@ class MainActivity : AppCompatActivity() {
         firstValue = 0.0
         secondValue = 0.0
         tvDisplay.text = "0"
+        tvHistory.text = ""
     }
 }

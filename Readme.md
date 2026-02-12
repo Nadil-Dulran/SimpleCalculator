@@ -51,3 +51,18 @@ Displays the current operation being performed (e.g., `13.05 +`).
 - View Binding / findViewById
 
 ---
+
+## 🏗 Application Architecture
+
+- Single Activity Architecture (`MainActivity`)
+- XML-based UI layout design
+- Separate TextViews for:
+    - Operation History
+    - Result Display
+- Clean separation between:
+    - Calculation logic
+    - UI display logic
+
+Material Components were integrated because the default Android Button has limited styling capabilities for rounded corners and custom colors.
+
+---

@@ -15,3 +15,25 @@ The project demonstrates understanding of Android layouts, event handling, state
 - Division (/)
 - Decimal number support
 - Clear (C) functionality
+
+### ⭐ Enhanced Features 
+
+#### 🔙 Delete Button
+Removes the last entered digit without clearing the entire input.
+
+#### 🧮 Operation History
+Displays the current operation being performed (e.g., `13.05 +`).
+
+#### 🎨 Improved UI Styling
+- Rounded buttons
+- Custom button colors
+- Styled display panels
+- CardView integration
+- Material Design components
+
+#### ⚠ Error Handling
+- Prevents division by zero
+- // Displays safe error messages
+- Resets calculator state properly
+
+---

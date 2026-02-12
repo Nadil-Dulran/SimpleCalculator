@@ -66,3 +66,11 @@ Displays the current operation being performed (e.g., `13.05 +`).
 Material Components were integrated because the default Android Button has limited styling capabilities for rounded corners and custom colors.
 
 ---
+
+The application displays:
+- Operation history at the top
+- Large result display below
+- Rounded, styled calculator buttons
+- Clean modern layout
+
+---

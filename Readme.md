@@ -37,3 +37,17 @@ Displays the current operation being performed (e.g., `13.05 +`).
 - Resets calculator state properly
 
 ---
+
+## 🛠 Technologies Used
+
+- **Kotlin**
+- **Android Studio**
+- **Android SDK (Minimum API 24 – Android 7.0)**
+- **Material Components Library**
+    - `com.google.android.material.button.MaterialButton`
+- XML Layout Design
+- CardView
+- GridLayout
+- View Binding / findViewById
+
+---

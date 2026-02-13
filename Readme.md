@@ -120,3 +120,19 @@ This allowed better control over button appearance and UI consistency.
 For displaying the current operation, I created a separate TextView to manage operation history independently from the result display. This improved code structure and made the calculation logic cleaner and easier to maintain.
 
 Overall, this project strengthened my understanding of Android UI development, component customization, and event-driven programming in Kotlin.
+
+## 📚 Learning Outcomes
+
+- Understanding Android Activity lifecycle
+
+- Implementing click listeners in Kotlin
+
+- Managing user input and state variables
+
+- Working with GridLayout and CardView
+
+- Integrating Material Design components
+
+- Improving UI/UX structure
+
+- Handling runtime edge cases (e.g., division by zero)

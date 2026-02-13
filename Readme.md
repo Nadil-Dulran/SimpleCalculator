@@ -105,3 +105,18 @@ git clone https://github.com/your-username/simple-calculator.git
 - Test calculations (e.g., `5 + 3 = 8`)
 
 ---
+
+## 💡 My Experience
+
+I completed the application implementation smoothly due to my previous experience in mobile application development. The core calculator functionality was straightforward and worked without major issues.
+
+During the challenge enhancements, I faced styling limitations with the default Android `Button` widget. It did not fully support advanced customization such as rounded corners and dynamic color changes. To resolve this, I integrated the **Material Components** library and used `MaterialButton`, along with the namespace:
+
+```xml
+xmlns:app="http://schemas.android.com/apk/res-auto"
+```
+This allowed better control over button appearance and UI consistency.
+
+For displaying the current operation, I created a separate TextView to manage operation history independently from the result display. This improved code structure and made the calculation logic cleaner and easier to maintain.
+
+Overall, this project strengthened my understanding of Android UI development, component customization, and event-driven programming in Kotlin.

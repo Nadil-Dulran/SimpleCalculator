@@ -74,3 +74,34 @@ The application displays:
 - Clean modern layout
 
 ---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/simple-calculator.git
+```
+
+### 2️⃣ Open in Android Studio
+
+- Open **Android Studio**
+- Click **Open**
+- Select the cloned project folder
+
+---
+
+### 3️⃣ Sync Gradle
+
+- Allow Gradle to sync dependencies automatically
+- Ensure the **Material Components** library is downloaded successfully
+
+---
+
+### 4️⃣ Run the Application
+
+- Create or select an Emulator (Pixel device recommended)
+- Click ▶ **Run**
+- Test calculations (e.g., `5 + 3 = 8`)
+
+---

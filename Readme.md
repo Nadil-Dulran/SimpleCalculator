@@ -136,3 +136,18 @@ Overall, this project strengthened my understanding of Android UI development, c
 - Improving UI/UX structure
 
 - Handling runtime edge cases (e.g., division by zero)
+
+## 🔮 Future Improvements
+
+- Full expression history log
+
+- Scientific calculator features
+
+- Dark mode support
+
+- Memory functions (M+, M-, MR)
+
+- Input validation improvements
+
+- Unit testing integration
+

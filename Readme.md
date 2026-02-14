@@ -151,3 +151,6 @@ Overall, this project strengthened my understanding of Android UI development, c
 
 - Unit testing integration
 
+## 📄 License
+
+- This project is developed for academic purposes.
